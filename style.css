@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: #000000;
+    width: 100vw;
+    margin: 0 auto;
 }
 
 .main__game {
@@ -9,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .genius {
@@ -21,6 +24,14 @@ body {
     border-radius: 100%;
     width: 700px;
     height: 700px;
+}
+
+/* Tablets and Smartphons */
+@media (max-width: 768px) {
+    .genius {
+        width: 80vw;
+        height: 80vh;
+    }
 }
 
 .blue {
